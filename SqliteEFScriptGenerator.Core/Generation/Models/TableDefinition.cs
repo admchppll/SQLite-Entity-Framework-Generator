@@ -1,13 +1,12 @@
 ﻿// Copyright (c) 2019 Adam Chappell
 // This code is licensed under MIT license (see LICENSE for details)
+using SqliteEFScriptGenerator.Core.Exceptions;
 using SqliteEFScriptGenerator.Core.Search;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
-using SqliteEFScriptGenerator.Core.Exceptions;
 
 namespace SqliteEFScriptGenerator.Core.Generation.Models
 {

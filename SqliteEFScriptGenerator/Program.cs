@@ -1,11 +1,9 @@
 ﻿// Copyright (c) 2019 Adam Chappell
 // This code is licensed under MIT license (see LICENSE for details)
 using SqliteEFScriptGenerator.Core.Configuration;
+using SqliteEFScriptGenerator.Core.Generation;
 using System;
 using System.IO;
-using System.Reflection;
-using SqliteEFScriptGenerator.Core.Search;
-using SqliteEFScriptGenerator.Core.Generation;
 
 namespace SqliteEFScriptGenerator
 {
@@ -75,9 +73,8 @@ namespace SqliteEFScriptGenerator
 
             #endregion Variable Assignment
 
-
-
             #region TestCode
+
             SQLiteGenerator sqLiteGenerator = new SQLiteGenerator(AssemblyFilePath);
             Console.Write(sqLiteGenerator.GenerateNewDatabase());
 

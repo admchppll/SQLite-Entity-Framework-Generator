@@ -1,13 +1,9 @@
 ﻿// Copyright (c) 2019 Adam Chappell
 // This code is licensed under MIT license (see LICENSE for details)
+using SqliteEFScriptGenerator.Core.Attributes;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using SqliteEFScriptGenerator.Core.Attributes;
 
 namespace SqliteEFScriptGenerator.Core.Generation.Models
 {

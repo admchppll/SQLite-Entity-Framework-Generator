@@ -1,7 +1,6 @@
 ﻿// Copyright (c) 2019 Adam Chappell
 // This code is licensed under MIT license (see LICENSE for details)
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following

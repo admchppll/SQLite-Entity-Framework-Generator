@@ -1,10 +1,10 @@
 ﻿// Copyright (c) 2019 Adam Chappell
 // This code is licensed under MIT license (see LICENSE for details)
+using SqliteEFScriptGenerator.Core.Attributes;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using SqliteEFScriptGenerator.Core.Attributes;
 
 namespace SqliteEFScriptGenerator.Core.Search
 {
