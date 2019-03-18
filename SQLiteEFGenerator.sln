@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLiteScriptTools", "SQLiteScriptTools", "{7B1DC489-0341-4289-A158-A1E189C8D3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteEFScriptGenerator", "SqliteEFScriptGenerator\SqliteEFScriptGenerator.csproj", "{F95B9713-E2E9-4219-9AB5-ABDDC9A2A31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteEFScriptGenerator.Core", "SqliteEFScriptGenerator.Core\SqliteEFScriptGenerator.Core.csproj", "{6CBD1202-70F8-4962-BE73-56FB6A10C1F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteTestAssembly", "SQLiteTestAssembly\SQLiteTestAssembly.csproj", "{AF04077C-5E91-41CC-826C-539EEC57E909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F95B9713-E2E9-4219-9AB5-ABDDC9A2A31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95B9713-E2E9-4219-9AB5-ABDDC9A2A31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95B9713-E2E9-4219-9AB5-ABDDC9A2A31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95B9713-E2E9-4219-9AB5-ABDDC9A2A31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBD1202-70F8-4962-BE73-56FB6A10C1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBD1202-70F8-4962-BE73-56FB6A10C1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBD1202-70F8-4962-BE73-56FB6A10C1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBD1202-70F8-4962-BE73-56FB6A10C1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF04077C-5E91-41CC-826C-539EEC57E909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF04077C-5E91-41CC-826C-539EEC57E909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF04077C-5E91-41CC-826C-539EEC57E909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF04077C-5E91-41CC-826C-539EEC57E909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F95B9713-E2E9-4219-9AB5-ABDDC9A2A31E} = {7B1DC489-0341-4289-A158-A1E189C8D3EE}
+		{6CBD1202-70F8-4962-BE73-56FB6A10C1F1} = {7B1DC489-0341-4289-A158-A1E189C8D3EE}
+		{AF04077C-5E91-41CC-826C-539EEC57E909} = {7B1DC489-0341-4289-A158-A1E189C8D3EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {660E1B82-A653-4ED4-A2C9-6168ADD021DF}
+	EndGlobalSection
+EndGlobal

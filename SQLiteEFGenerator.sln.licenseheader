@@ -1,0 +1,15 @@
+extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+// Copyright (c) 2019 Adam Chappell
+// This code is licensed under MIT license (see LICENSE for details)
+extensions: .aspx .ascx
+<%--
+Copyright (c) 2019 Adam Chappell
+--%>
+extensions: .vb
+'Sample license text.
+extensions:  .xml .config .xsd
+<!--
+Copyright (c) 2019 Adam Chappell
+This code is licensed under MIT license (see LICENSE for details)
+-->
