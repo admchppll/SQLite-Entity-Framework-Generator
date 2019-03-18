@@ -1,4 +1,4 @@
-SQLiteEFGenerator
+# SQLite Entity Framework Database Generator
 
 Description:
 
@@ -11,3 +11,11 @@ The project includes custom attributes which will accompany the existing EF attr
 Current state:
 
 The project can currently generate a blank database script but no foreign key constraints. Foreign key constraints are nearly completed but not integrated in the script creation. Following this, functionality will be added to ensure table dependencies do not cause issues in database generation.
+
+Project Breakdown:
+*	SqliteEFScriptGenerator.Core
+	*	This will be the core package that can be used to generate the scripts
+*	SqliteEFScriptGenerator
+	*	A console project for testing the Core library
+*	SQLiteTestAssembly
+	*	A basic assembly to test the Core library
