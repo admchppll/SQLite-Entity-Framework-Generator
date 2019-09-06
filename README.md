@@ -1,3 +1,5 @@
+*Please note this project is not currently being actively developed or maintained*
+
 # SQLite Entity Framework Database Generator
 
 Description:
